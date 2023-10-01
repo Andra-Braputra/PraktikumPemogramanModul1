@@ -1,0 +1,11 @@
+a = int("9")
+b = int("6")
+x = int("10")
+y = int("7")
+operasi = ((a + b) * x) / y
+hasil = "{:.2f}".format(operasi)
+print("Variabel a bernilai " + str(a) )
+print("Variabel b bernilai " + str(b) )
+print("Variabel z bernilai " + str(x) )
+print("Variabel z bernilai " + str(y) )
+print("Hasil dari a ditambah b dikali x dan dibagi y adalah " + str(hasil))
